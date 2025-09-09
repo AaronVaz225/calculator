@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Skibidy Song -->
+     <audio src="skibidy.mp3" id="bgm" autoplay muted loop></audio>
     
+    <!-- Calculator Container -->
+    <div class="calculator-container">
+            <!-- Display Section -->
+            <div class="display" id="display"></div>
+
+            <!-- Numbers -->
+            <button id="zero" class="zero"><i class="fa-solid fa-0"></i></button>
+            <button id="one" class="one"><i class="fa-solid fa-1"></i></button>
+            <button id="two" class="two"><i class="fa-solid fa-2"></i></button>
+            <button id="three" class="three"><i class="fa-solid fa-3"></i></button>
+            <button id="four" class="four"><i class="fa-solid fa-4"></i></button>
+            <button id="five" class="five"><i class="fa-solid fa-5"></i></button>
+            <button id="six" class="six"><i class="fa-solid fa-6"></i></button>
+            <button id="seven" class="seven"><i class="fa-solid fa-7"></i></button>
+            <button id="eight" class="eight"><i class="fa-solid fa-8"></i></button>
+            <button id="nine" class="nine"><i class="fa-solid fa-9"></i></button>
+
+            <!-- Extra Buttons -->
+             <button class="equals" id="equals"><i class="fa-solid fa-equals"></i></button>
+             <button id="negative" class="negative"><i class="fa-solid fa-plus-minus"></i></button>
+             <button class="decimal" id="decimal"><i class="fa-solid fa-circle"></i></button>
+             <button class="clear" id="clear"><i class="fa-solid fa-broom"></i></button>
+
+            <!-- Controls -->
+            <button class="add" id="add"><i class="fa-solid fa-plus"></i></button>
+            <button class="subtract" id="subtract"><i class="fa-solid fa-minus"></i></button>
+            <button class="multiply" id="multiply"><i class="fa-solid fa-xmark"></i></button>
+            <button class="divide" id="divide"><i class="fa-solid fa-divide"></i></button>
+
+    </div>
+
+   
+    <script src="script.js"></script>
 </body>
 </html>
