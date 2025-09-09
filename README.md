@@ -6,3 +6,5 @@ That's right gang, it is September 9, 2025 and this is my first *unassisted* cod
 
 
 site visible at https://aaronvaz225.github.io/calculator/
+
+P.S. Don't take this seriously.
